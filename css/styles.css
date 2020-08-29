@@ -1,0 +1,191 @@
+/* NEUL INTRO CSS */
+* {
+    padding: 0 1%;
+}
+  
+body {
+    background: white;
+    text-align: left;
+}
+
+header {
+    background-color: transparent;
+    margin: 2% 0;
+}
+
+.menu-bar ul {
+    background-color: transparent;
+    border: none;
+    color: #026670;
+    display: inline-flex;
+    margin: 10px 50px;
+    padding: 0 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 0 5%;
+    padding: 5px 10px;
+    font-size: 1.125rem;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+}
+
+.menu-bar ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* ABOUT */
+navigation h1 {
+    color: #026670;
+    letter-spacing: 0.15em;
+    padding: 0 15%;
+    margin-left: 0;
+}
+
+.about-me ul {
+    margin: 20px 50px;
+    display: relative;
+}
+
+.about-me ul li {
+    align-content: center;
+    background-color: transparent;
+    color: #026670;
+    display: inline-flex;
+    padding: 0 12%;
+    margin: 10px;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* hobbies */
+.hobbies p {
+    color: black;
+    display: inline-flex;
+    font-size: 18px;
+    width: 350px;
+}
+
+.hobbies a {
+    color: lightslategrey;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.hobbies a:hover {
+    text-decoration: underline;
+}
+
+/* knowledge */
+.my-knowledge p {
+    text-align: left;
+    padding: 20px 15%;
+    font-family: sans-serif;
+}
+
+.table {
+    margin-left: 15%;
+}
+
+table {
+    border: 3px solid black;
+    border-spacing: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    width: 50%;
+    height: 30%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+}
+
+tr, th {
+    padding: 10px 60px;
+}
+
+/* experience */
+#other-websites {
+    color: black;
+    display: inline;
+    font-size: 18px;
+    width: 350px;
+}
+
+#other-websites ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* humor */
+.meme-image a {
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+.meme-image a:hover {
+    text-decoration: underline;
+}
+
+#frame {
+    color: #FCE181;
+    width: 50%;
+    margin: 0 10%;
+    padding: 2% 5%;
+    background-color: transparent;
+    border-style: dotted;
+    border-radius: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+/* goals */
+#frame-1 {
+    color: #9fedd7;
+    width: 50%;
+    margin: 0 10%;
+    padding: 2% 5%;
+    background-color: transparent;
+    border-style: dotted;
+    border-radius: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    display: flexbox;
+}
+
+.my-goals p {
+    color: black;
+}
+
+/* footer */
+footer {
+    padding: 0 0;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    color: lightgrey;
+    text-align: center;
+    line-height: 30;
+    background-image: url('../images/tulip.png');
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    margin-top: 10%;
+}
